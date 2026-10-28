@@ -1,0 +1,53 @@
+# --- Visual Studio / VS Code ---
+.vs/
+.vscode/
+*.sln
+*.vcxproj*
+*.user
+*.suo
+*.ipch
+*.opendb
+*.db
+
+# --- Компилированные файлы (бинарники) ---
+# Они не нужны на GitHub, каждый компилирует у себя сам
+*.exe
+*.out
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
+Debug/
+Release/
+x64/
+x86/
+
+# --- Тестовые файлы и результаты работы программы ---
+# Твои программы создают эти файлы во время работы, в репозитории им не место
+source.txt
+dest.txt
+*.log
+
+# --- Системный мусор ---
+.DS_Store
+Thumbs.db
+
+*.doc
+*.pdf
+
+# Компилированные файлы (без расширения, как в Linux)
+client
+server
+a.out
+
+# Проекты Visual Studio
+*.slnx
+*.vcxproj*
+# Code::Blocks build artifacts
+bin/
+obj/
+*.depend
+*.layout
+*.cbp.bak
+*.exe
